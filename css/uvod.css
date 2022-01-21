@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+header {
+    /* background-position: 30px 20px;*/
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+body {
+    background-image: url(https://screenbeauty.com/image/download/2333-cyan-magenta-colors-2560-x-1600.jpg);
+    color: rgb(44, 44, 44);
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(0, 151, 151);
+    padding: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h2 a {
+    color: #000000;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    text-align: left;
+    background-color: rgb(0, 151, 151);
+    width: 47%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+footer {
+    color: white;
+}
